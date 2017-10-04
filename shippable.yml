@@ -1,10 +1,4 @@
 language: java
+
 jdk:
-- openjdk7
-after_success:
-- mvn clean
-- mvn test
-notifications:
-email:
-recipients:
-- daniel.infamous@gmail.com
+  - oraclejdk8
